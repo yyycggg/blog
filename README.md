@@ -4,11 +4,11 @@ You can use the [editor on GitHub](https://github.com/yyycggg/ycg.blog/edit/mast
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-https://yyycggg.github.io/ycg.blog/
+### ycg
+[博客网址](https://yyycggg.github.io/ycg.blog/)
 
 ```markdown
-ycg
+
 小鹿天天喊困
 ```
 
