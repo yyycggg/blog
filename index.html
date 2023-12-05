@@ -1,1 +1,34 @@
-sss
+# 我的博客
+
+这是我的博客。距离 2024 年元旦还有 <span id="countdown"></span> 天。
+
+<script>
+  // 指定目标日期
+  const targetDate = new Date('2024-01-01');
+
+  function calculateDays() {
+    const currentDate = new Date();
+    const timeDifference = targetDate.getTime() - currentDate.getTime();
+
+    // 将时间差转换为天数
+    const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+    return daysRemaining;
+  }
+
+  function updateCountdown() {
+    const countdownElement = document.getElementById('countdown');
+    const daysRemaining = calculateDays();
+
+    if (daysRemaining > 0) {
+      countdownElement.textContent = daysRemaining + ' 天';
+    } else if (daysRemaining < 0) {
+      countdownElement.textContent = '已过去 ' + Math.abs(daysRemaining) + ' 天';
+    } else {
+      countdownElement.textContent = '今天就是目标日期！';
+    }
+  }
+
+  // 每秒钟更新一次倒计时
+  setInterval(updateCountdown, 1000);
+</script>
