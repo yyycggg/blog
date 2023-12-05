@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/yyycggg/ycg.blog/edit/mast
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### ycg
-[博客网址](https://yyycggg.github.io/ycg.blog/)
+[博客网址](https://yyycggg.github.io/blog/)
 
 ```markdown
 小鹿天天喊困
